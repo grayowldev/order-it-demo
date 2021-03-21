@@ -9,7 +9,7 @@ import { MenuCategoryComponent } from './components/menu-category/menu-category.
 import { DishCardComponent } from './components/dish-card/dish-card.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { TempComponent } from './pages/temp/temp.component';
-import { AddProductComponent } from './components/add-product/add-product.component';
+
 
 @NgModule({
   declarations: [
@@ -17,8 +17,7 @@ import { AddProductComponent } from './components/add-product/add-product.compon
     MenuCategoryComponent,
     DishCardComponent,
     NavbarComponent,
-    TempComponent,
-    AddProductComponent
+    TempComponent
   ],
   imports: [
     BrowserModule,
