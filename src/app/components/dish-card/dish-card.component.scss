@@ -1,0 +1,19 @@
+.card{
+    width: 35rem;
+    flex-direction: row;
+    align-content: center;
+}
+
+.card img{
+    width: 40%;
+    // height: 1%;
+    // padding-top: 5%;
+    padding: 12px;
+    border-top-right-radius: 0;
+    border-top-left-radius: calc(0.25rem - 1px);
+}
+
+.card-subtitle{
+    padding-top: 10%;    
+}
+

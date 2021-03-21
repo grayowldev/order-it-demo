@@ -1,0 +1,8 @@
+<div>
+    <h4 class="category-name">{{category.name}}</h4>
+    <div class="dish-card-holder">
+        <div class="" *ngFor="let dish of category.dishList">
+            <app-dish-card [dish]="dish"></app-dish-card>
+        </div>
+    </div>
+</div>
